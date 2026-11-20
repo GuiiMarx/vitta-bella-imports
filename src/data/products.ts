@@ -13,7 +13,7 @@ export const products: Product[] = [
     id: "asad",
     name: "Asad",
     price: 149.9,
-    image: "/products/asad.png",
+    image: "https://lattafa.com/wp-content/uploads/2024/05/Asad-01.jpg",
     collection: "asad",
     description: "Amber fragrance for men. Top: Black Pepper, Pineapple, Tobacco.",
   },
@@ -21,7 +21,7 @@ export const products: Product[] = [
     id: "asad_elixir",
     name: "Asad Elixir",
     price: 169.9,
-    image: "/products/asad_elixir.png",
+    image: "https://www.lattafa-usa.com/cdn/shop/files/ASADELIXIRBOTTLE.png?v=1760805808",
     collection: "asad",
   },
   {
@@ -43,7 +43,7 @@ export const products: Product[] = [
     id: "yara",
     name: "Yara",
     price: 139.9,
-    image: "/products/yara.png",
+    image: "https://www.lattafa-usa.com/cdn/shop/files/1_7682153c-2dce-4b60-a9e6-20557f8502cf.png?v=1747500015",
     collection: "yara",
   },
   {
@@ -86,7 +86,7 @@ export const products: Product[] = [
     id: "fakhar_black",
     name: "Fakhar Black",
     price: 189.9,
-    image: "/products/fakhar_black.png",
+    image: "https://www.lattafa-usa.com/cdn/shop/files/1_aa0a5a38-775b-4814-a909-837c1d360d9c.png?v=1747500778",
     collection: "fakhar",
   },
 ];
