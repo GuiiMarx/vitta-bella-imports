@@ -1,25 +1,54 @@
-# Vitta Bella Imports - Perfumes Árabes
+# Vitta Bella Imports – Perfumes Árabes
 
-Site de e-commerce completo para venda de perfumes árabes importados.
+Site de e-commerce em **Next.js 15** otimizado para **Vercel**.
 
-## Coleções
+## Stack
 
-- **Coleção Asad**: Asad, Asad Elixir, Asad Bourbon, Asad Zanzibar
-- **Coleção Yara**: Yara, Yara Candy, Yara Moi, Yara Elixir, Yara Tous
-- **Coleção Fakhar**: Fakhar Rose, Fakhar Black
+- Next.js 15 (App Router)
+- React 19
+- TypeScript
+- Tailwind CSS
+- Lucide Icons
 
 ## Funcionalidades
 
-- Catálogo visual com design premium (azul + dourado)
-- Carrinho de compras funcional
+- Catálogo das coleções **Asad**, **Yara** e **Fakhar**
+- Carrinho de compras com persistência (localStorage)
 - Checkout com formulário completo
-- Persistência do carrinho (localStorage com fallback)
+- Design premium (azul-marinho + dourado)
 - Totalmente responsivo
+- Pronto para integração de gateway de pagamento (Stripe, Mercado Pago, PagSeguro etc.)
 
-## Como usar
+## Como rodar localmente
 
-Basta abrir o `index.html` no navegador ou hospedar em qualquer servidor estático (GitHub Pages, Netlify, Vercel etc.).
+```bash
+npm install
+npm run dev
+```
 
-## GitHub Pages
+Abra [http://localhost:3000](http://localhost:3000).
 
-Ative nas configurações do repositório: Settings → Pages → Source: Deploy from a branch → main / root.
+## Deploy na Vercel
+
+1. Conecte o repositório no [vercel.com](https://vercel.com)
+2. Deploy automático a cada push na `main`
+
+Ou via CLI:
+
+```bash
+npx vercel
+```
+
+## Imagens dos produtos
+
+As imagens estão na pasta `public/products/`. Faça upload da pasta `products` e do `logo.png` do ZIP anterior para a pasta `public/` do projeto.
+
+## Próximos passos
+
+- Integração de gateway de pagamento real
+- Painel administrativo
+- Sistema de estoque
+
+---
+
+© 2026 Vitta Bella Imports
